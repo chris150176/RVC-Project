@@ -5,7 +5,8 @@ numpy>=1.21.0
 numpy<1.25.0
 scipy
 librosa==0.9.1
-llvmlite==0.39.0
+llvmlite>=0.40
+llvmlite<0.41
 fairseq==0.12.2
 faiss-cpu==1.7.3
 gradio==3.34.0
